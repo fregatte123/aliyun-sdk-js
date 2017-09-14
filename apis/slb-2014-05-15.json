@@ -655,6 +655,22 @@
           "ResourceOwnerAccount": {
             "type": "string"
           },
+          "RegionId":{
+            "required": true,
+            "type": "string"
+          },
+          "MasterZoneId":{
+            "required": true,
+            "type": "string"
+          },
+          "LoadBalancerId":{
+            "required": true,
+            "type": "string"
+          },
+          "SlaveZoneId":{
+            "required": true,
+            "type": "string"
+          },
           "ResourceOwnerId": {
             "type": "integer"
           },
@@ -725,6 +741,10 @@
           },
           "ResourceOwnerId": {
             "type": "integer"
+          },
+          "RegionId": {
+            "required": true,
+            "type": "string"
           },
           "LoadBalancerId": {
             "required": true,
@@ -1240,6 +1260,18 @@
             "type": "integer"
           },
           "XForwardedFor": {
+            "type": "string"
+          },
+          "Gzip": {
+            "type": "string"
+          },
+          "XForwardedFor_SLBIP": {
+            "type": "string"
+          },
+          "XForwardedFor_SLBID": {
+            "type": "string"
+          },
+          "XForwardedFor_proto": {
             "type": "string"
           },
           "Scheduler": {
