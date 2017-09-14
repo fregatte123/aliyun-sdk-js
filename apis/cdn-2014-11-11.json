@@ -2291,7 +2291,8 @@
           "OwnerId": {
             "type": "integer"
           },
-          "SecurityToken": {
+          "CertName": {
+            "required": true,
             "type": "string"
           },
           "DomainName": {
